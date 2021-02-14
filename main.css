@@ -1,0 +1,107 @@
+* {box-sizing: border-box;}
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(100deg,#3659ce, #0F2E98);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container{
+    margin-left: auto;
+    margin-top: 40px;
+    margin-right: auto;
+    text-align: center;
+    width: 240px;
+    height: 420px;
+    background-color:white;
+    border-radius: 15px;
+}
+
+.head{
+    font-size: 12px;
+    padding-top: 20px;
+    color: #585858;
+    margin-bottom: 40px;
+}
+
+
+.input-container {
+    width: 100%;
+    margin-bottom: 10px;
+    opacity: 0.8;
+  }
+
+.input-container i{
+    margin-left: 14px;
+    margin-top: 11px;
+    position: absolute;
+    opacity: 0.5;
+}
+
+.input-field{
+    width: 90%;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: #F2F2F2;
+    border: none;
+    opacity: 1;
+    font-size: 15px;
+}
+
+input[type=text], input[type=password]{
+    padding-left: 40px;
+    opacity: 1;
+}
+.input-field[type=text] {
+    margin-bottom: 5px;
+}
+
+
+  .input-field:focus {
+    border: 1px solid dodgerblue;
+  }
+
+.rem label{
+    padding-right: 80px;
+    opacity: 0.5;  
+    letter-spacing: -1px;
+}
+
+.sub-btn button{
+    background-image: linear-gradient(to right,#FAB567 , #E6747B);
+    width: 80%;
+    padding: 5px;
+    font-size: 15px;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 8px;
+    color: white;
+    cursor: pointer;
+    opacity: 0.9;
+    
+}
+ .sub-btn button:hover {
+    opacity: 1;
+ }
+.fgt-pass a{
+    font-size: 12px;
+    text-align: center ;  
+    text-decoration: none;
+    color: grey;
+    opacity: 0.9;
+}
+
+
+.btm-sign {
+    margin-top: 60px;
+    opacity: 0.5;
+    font-size: 13px;
+    letter-spacing: -1px;
+}
+
+.btm-sign a{
+    color: blue;
+    text-decoration: none; 
+}
+
